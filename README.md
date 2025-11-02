@@ -57,3 +57,12 @@ Copy outputs to the `static/android-reference` folder.
 # Deployment
 
 
+# How does it looks like
+
+
+![Dashboard screen](extras/screens/screen_dashboard.png)
+
+![Documentation screen](extras/screens/screen_doc.png)
+
+![API reference screen](extras/screens/screen_doc_api.png)
+
