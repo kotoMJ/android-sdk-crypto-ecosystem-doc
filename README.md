@@ -66,6 +66,9 @@ In the final documentation the folder with latest date/higher number will be mar
 
 # Deployment
 
+Deployment of this example is connected to github pages via github actions.
+Live demo of this documentation is available on https://kotomj.github.io/android-sdk-crypto-ecosystem-doc/
+
 # How does it looks like
 
 ![Dashboard screen](extras/screens/screen_dashboard.png)
