@@ -1,0 +1,74 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:cz.kotox.crypto.sdk.coindata.domain////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.domain.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api//createCoinGeckoApi/de.jensklingenberg.ktorfit.Ktorfit#/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]create-coin-gecko-api.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiImpl///PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-impl/index.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiImpl/_CoinGeckoApiImpl/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-impl/_-coin-gecko-api-impl.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiImpl/getCoinDetail/#kotlin.String/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-impl/get-coin-detail.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiImpl/getMarkets/#kotlin.String#kotlin.String#kotlin.Int#kotlin.Int/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-impl/get-markets.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiProvider///PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-provider/index.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiProvider/_CoinGeckoApiProvider/#/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-provider/_-coin-gecko-api-provider.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.api/_CoinGeckoApiProvider/create/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.api/[release]_-coin-gecko-api-provider/create.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.data.mapper////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.data.mapper.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.test////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.test.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.usecase////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.usecase.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal.utils////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.utils.html
+$dokka.location:cz.kotox.crypto.sdk.coindata.internal////PointingToDeclaration/Crypto-coindata/cz.kotox.crypto.sdk.coindata.internal.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api//createNewsApi/de.jensklingenberg.ktorfit.Ktorfit#/PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]create-news-api.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiImpl///PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-impl/index.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiImpl/_NewsApiImpl/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-impl/_-news-api-impl.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiImpl/getNews/#kotlin.String#<ERROR CLASS> ERROR CLASS: Symbol not found for NewsApiSortBy#kotlin.String/PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-impl/get-news.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiProvider///PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-provider/index.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiProvider/_NewsApiProvider/#/PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-provider/_-news-api-provider.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.data.api/_NewsApiProvider/create/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.data.api/[release]_-news-api-provider/create.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.test////PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.test.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal.utils////PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.utils.html
+$dokka.location:cz.kotox.crypto.sdk.news.internal////PointingToDeclaration/Crypto-news/cz.kotox.crypto.sdk.news.internal.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.domain////PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.domain.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api//createCoinbaseApi/de.jensklingenberg.ktorfit.Ktorfit#/PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]create-coinbase-api.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiImpl///PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-impl/index.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiImpl/_CoinbaseApiImpl/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-impl/_-coinbase-api-impl.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiImpl/getTradingProducts/#/PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-impl/get-trading-products.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiProvider///PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-provider/index.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiProvider/_CoinbaseApiProvider/#/PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-provider/_-coinbase-api-provider.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.data.api/_CoinbaseApiProvider/create/#de.jensklingenberg.ktorfit.Ktorfit/PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.data.api/[release]_-coinbase-api-provider/create.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.test////PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.test.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.usecase////PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.usecase.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal.utils////PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.utils.html
+$dokka.location:cz.kotox.crypto.sdk.tracker.internal////PointingToDeclaration/Crypto-tracker/cz.kotox.crypto.sdk.tracker.internal.html
+module:Crypto-coindata
+cz.kotox.crypto.sdk.coindata
+cz.kotox.crypto.sdk.coindata.domain
+cz.kotox.crypto.sdk.coindata.domain.model
+cz.kotox.crypto.sdk.coindata.internal
+cz.kotox.crypto.sdk.coindata.internal.data.api
+cz.kotox.crypto.sdk.coindata.internal.data.dto
+cz.kotox.crypto.sdk.coindata.internal.data.mapper
+cz.kotox.crypto.sdk.coindata.internal.test
+cz.kotox.crypto.sdk.coindata.internal.usecase
+cz.kotox.crypto.sdk.coindata.internal.utils
+module:Crypto-common
+cz.kotox.crypto.sdk.common
+cz.kotox.crypto.sdk.common.error
+cz.kotox.crypto.sdk.common.extensions
+cz.kotox.crypto.sdk.common.logger
+module:Crypto-news
+cz.kotox.crypto.sdk.news
+cz.kotox.crypto.sdk.news.domain
+cz.kotox.crypto.sdk.news.internal
+cz.kotox.crypto.sdk.news.internal.data.api
+cz.kotox.crypto.sdk.news.internal.dto
+cz.kotox.crypto.sdk.news.internal.mapper
+cz.kotox.crypto.sdk.news.internal.test
+cz.kotox.crypto.sdk.news.internal.utils
+module:Crypto-tracker
+cz.kotox.crypto.sdk.tracker
+cz.kotox.crypto.sdk.tracker.domain
+cz.kotox.crypto.sdk.tracker.domain.model
+cz.kotox.crypto.sdk.tracker.internal
+cz.kotox.crypto.sdk.tracker.internal.data.api
+cz.kotox.crypto.sdk.tracker.internal.dto
+cz.kotox.crypto.sdk.tracker.internal.mapper
+cz.kotox.crypto.sdk.tracker.internal.test
+cz.kotox.crypto.sdk.tracker.internal.usecase
+cz.kotox.crypto.sdk.tracker.internal.utils

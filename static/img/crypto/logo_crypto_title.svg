@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160">
+    <!-- Transparent background -->
+
+    <!-- Coin symbol -->
+    <g transform="translate(40,40)" fill="none" stroke="#c7a02b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Outer ring -->
+        <circle cx="40" cy="40" r="36"/>
+        <!-- Inner "C" shape -->
+        <path d="M64 40a24 24 0 1 1 -24 -24" />
+        <!-- Vertical line + node -->
+        <line x1="40" y1="40" x2="40" y2="68"/>
+        <circle cx="40" cy="40" r="6" fill="#c7a02b" stroke="none"/>
+    </g>
+
+    <!-- Text -->
+    <text x="140" y="100"
+          font-family="Satoshi, Poppins, Helvetica, Arial, sans-serif"
+          font-weight="700"
+          font-size="72"
+          fill="#c7a02b"
+          fill-opacity="0.7"
+          letter-spacing="2">
+        CRYPTO
+    </text>
+</svg>

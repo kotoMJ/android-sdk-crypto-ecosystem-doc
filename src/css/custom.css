@@ -1,0 +1,77 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --ifm-color-primary: #b49127;
+  --ifm-color-primary-dark: #a28223;
+  --ifm-color-primary-darker: #997b21;
+  --ifm-color-primary-darkest: #7e661c;
+  --ifm-color-primary-light: #c7a02b;
+  --ifm-color-primary-lighter: #d0a72d;
+  --ifm-color-primary-lightest: #d7b346;
+  --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-title-color: #ffffff;
+  --ifm-footer-label-color: #ffffff;
+  --ifm-footer-link-color: #ffffff;
+  --ifm-footer-link-hover-color: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: Satoshi, 'Satoshi';
+  font-family: Satoshi, Helvetica, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #b49127;
+  --ifm-color-primary-dark: #a28223;
+  --ifm-color-primary-darker: #997b21;
+  --ifm-color-primary-darkest: #7e661c;
+  --ifm-color-primary-light: #c7a02b;
+  --ifm-color-primary-lighter: #d0a72d;
+  --ifm-color-primary-lightest: #d7b346;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+footer .footer__copyright {
+  color: #ffffff96;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation class */
+.animate-fade-in {
+  opacity: 0; /* Start with hidden */
+  animation: fadeIn 1s forwards; /* Apply the animation */
+}
+
+.hide-navbar .navbar__items--right {
+  display: none;
+}

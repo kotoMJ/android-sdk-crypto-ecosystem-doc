@@ -1,0 +1,256 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .background {
+  background-size: 100% 100%;
+  background-position: 0px 0px,0px 0px,0px 0px;
+  background-image: repeating-linear-gradient(315deg, #073AFF00 98%, #0000002E 99%),radial-gradient(99% 99% at 109% 2%, #000000FF 0%, #073AFF00 100%),linear-gradient(245deg, #525151FF 49%, #5E5E5EFF 91%);
+} */
+
+
+/*.background {*/
+/*  !* --- Replace these properties --- *!*/
+/*  background-color: #1a1a1a; !* Dark background *!*/
+/*  background-image:*/
+/*          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),*/
+/*          linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);*/
+/*  background-size: 30px 30px; !* Adjust the grid spacing *!*/
+/*  !* --- Keep your other properties --- *!*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  flex-direction: column;*/
+/*  gap: 32pt;*/
+/*  padding-bottom: 32pt;*/
+/*  flex: 1;*/
+/*  overflow: hidden;*/
+/*}*/
+
+.background {
+  /* --- Replace these properties --- */
+  background-image: url('/img/crypto/pattern_hexagons.svg');
+  background-repeat: repeat; /* Tiles the pattern */
+  background-size: auto; /* Or set a specific size like 300px */
+  background-color: #1a1a1a; /* Fallback color */
+  /* --- Keep your other properties --- */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32pt;
+  padding-bottom: 32pt;
+  flex: 1;
+  overflow: hidden;
+}
+
+/*.background {*/
+/*  background-color: #050505;*/
+/*  background-image:*/
+/*          linear-gradient(rgba(120, 120, 120, 0.1) 1px, transparent 1px),*/
+/*          linear-gradient(90deg, rgba(120, 120, 120, 0.1) 1px, transparent 1px),*/
+/*          linear-gradient(rgba(120, 120, 120, 0.05) 1px, transparent 1px),*/
+/*          linear-gradient(90deg, rgba(120, 120, 120, 0.05) 1px, transparent 1px);*/
+/*  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;*/
+/*  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1s;*/
+/*  !* --- Keep your other properties --- *!*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  flex-direction: column;*/
+/*  gap: 32pt;*/
+/*  padding-bottom: 32pt;*/
+/*  flex: 1;*/
+/*  overflow: hidden;*/
+/*}*/
+
+.background img {
+  pointer-events: none;
+}
+
+.content {
+  max-width: 996px;
+  gap: 32pt;
+  padding: 16pt;
+  margin-top: 0vh;/*percent from the top*/
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeading {
+  text-align: center;
+  color: var(--ifm-color-primary-light);
+  opacity: 0.8;
+}
+
+.imageRowWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  border-radius: 16px;
+  max-width: 1300px;
+  margin-left: 46pt;
+  margin-right: 46pt;
+}
+
+.imageRowWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 16px;
+  z-index: 1000;
+  width: 64px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.imageRowWrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16px;
+  z-index: 1000;
+  width: 64px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.imageRow {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  gap: 64pt;
+  background-color: #141414;
+  border-radius: 16pt;
+  padding: 16pt;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .imageRow {
+    padding-left: calc(50vw - 75px);
+    padding-right: calc(50vw - 75px);
+  }
+
+  .card {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+.image {
+  display: block;
+  width: 140px;
+  opacity: 0.7;
+  height: 285px;
+}
+
+.even {
+  background-color: #242526;
+}
+
+.odd {
+  background-color: #141414;
+}
+
+.header {
+  width: 100%;
+  height: 64pt;
+  background-color: #242526;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 16pt 0;
+}
+
+/* .imageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 130px;
+  height: 285px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0.35)
+  );
+  pointer-events: none;
+} */
+
+.imageContainer {
+  position: relative;
+  width: 140px;
+  height: 285px;
+  display: inline-block;
+}
+
+.myButton {
+  padding: 8pt;
+  padding-left: 20pt;
+  padding-right: 20pt;
+  font-size: 16pt;
+  font-weight: 600;
+  border-radius: 40pt;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.15)
+  );
+  flex-direction: row;
+  display: flex;
+  border: 3px solid var(--ifm-color-primary-light);
+  align-items: center;
+  gap: 10pt;
+  color: var(--ifm-color-primary-light);
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Add this line */
+}
+
+.myButton:hover {
+  color: var(--ifm-footer-title-color);
+  background-color: var(--ifm-color-primary-darkest);
+  border: 3px solid var(--ifm-color-primary-darkest);
+}
+
+.buttons {
+  flex-direction: row;
+  display: flex;
+  gap: 16pt;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vendorLogo {
+  width: 20pt;
+  height: 20pt;
+  background-color: var(--ifm-color-primary-light);
+}
+
+.sectionContent {
+  gap: 16pt;
+  font-size: 16pt;
+  display: flex;
+  flex-direction: column;
+}

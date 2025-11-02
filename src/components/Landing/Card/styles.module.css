@@ -1,0 +1,77 @@
+.sectionImageWrapper {
+  height: calc(285px * 1.5);
+  width: calc(140px * 1.5);
+  position: relative;
+  display: flex;
+}
+
+.sectionImage {
+  height: calc(285px * 1.5);
+  width: calc(140px * 1.5);
+  max-width: 9999px;
+}
+
+/* .sectionImageWrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  border-radius: 16px;
+  height: calc(285px * 1.5);
+  width: calc(130px * 1.5);
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0.35)
+  );
+  pointer-events: none; 
+} */
+
+.sectionHeading {
+  align-self: flex-start;
+  padding: 6pt;
+  color: #ededed;
+}
+
+.sectionSpacer {
+  flex: 1;
+  min-width: 32pt;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    color: #b8b8b8;
+    width: 95%;
+    opacity: 0;
+    max-width: 1300px;
+    background: linear-gradient(to bottom right, rgb(20, 20, 20), #242526);
+    margin-left: 46pt;
+    margin-right: 46pt;
+    border-radius: 16px;
+    padding: 16pt;
+  }
+  
+  .card .left-image {
+    background: linear-gradient(to bottom left, black, #242526);
+  }
+  
+  .card h1 {
+    color: #b8b8b8;
+  }
+  
+  .card p {
+    color: #b8b8b8;
+  }
+  
+  .card li::marker {
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 399px) {
+    .card {
+      flex-direction: column !important;
+      align-items: center;
+    }
+  }
