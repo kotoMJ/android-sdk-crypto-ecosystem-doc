@@ -29,14 +29,22 @@ Installation instructions can be found at https://nodejs.org/en/download/package
     ```sh
     yarn install
     ```
+   NODE_ENV is set to 'development'
 
-4. **Run the project**:
+4. **Run the project on dev**:
     ```sh
     yarn start
     ```
 
 5. **Open in browser**:
    Open your browser and navigate to `http://localhost:3000` to view the site.
+
+
+6. **Run the project on production**
+    ```sh
+    yarn build
+    ```
+   NODE_ENV is set to 'production'
 
 # Adding a new page
 
