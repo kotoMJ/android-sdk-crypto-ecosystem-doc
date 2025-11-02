@@ -75,3 +75,12 @@ footer .footer__copyright {
 .hide-navbar .navbar__items--right {
   display: none;
 }
+
+.navbar__title {
+  color: var(--ifm-color-primary-light);
+}
+
+.navbar__title:hover {
+  color: var(--ifm-footer-title-color);
+}
+
